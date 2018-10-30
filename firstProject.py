@@ -6,9 +6,6 @@ for i in range(3):
     choice = input()
     aryList.append(choice)
 print("#########################################")
-for i in range(6):
+for i in range(len(aryList)):
     print(aryList[i])
-
-
-number = random.randint(0, 5)
-print(aryList[number])
+print(random.choice(aryList))
